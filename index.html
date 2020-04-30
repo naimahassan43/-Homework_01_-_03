@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HTML 5</title>
+	<style>
+	table, th, td {
+	  border: 1px solid black;
+	}
+	</style>
+</head>
+<body>
+	<h1>HTML 5 practice</h1>
+
+	<h2>The a element</h2>
+	<a href="https://www.facebook.com/naima.hassan43">Visit my facebook page</a>
+
+	<h2>The abbr element </h2>
+	<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+	<h2>The address element</h2>
+	<address>
+		Visit Us at: <br>
+		Dream Castle, <br>
+		House#07, Road #04, <br>
+		Gulshan 1, Dhaka.
+	</address>
+
+	<h2>The article element</h2>
+
+	<article>
+		<h3>Lorem Ipsum</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error in consectetur vitae ex recusandae, numquam illum quos cumque tempore reprehenderit?</p>
+	</article>
+
+	<h2>The b element</h2>
+
+	<p>Lorem ipsum dolor sit amet.<b>Lorem ipsum dolor sit amet, consectetur.</b>.</p>
+
+	<h2>The blockquote element</h2>
+	<p>Here is a quote from WWF's website:</p>
+
+	<blockquote cite="http://www.worldwildlife.org/who/index.html">
+	For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+	</blockquote>
+
+	<h2>The br element</h2>
+
+	<p>Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit. Id, quidem. Iure voluptatibus modi saepe natus eius, <br>quia, dolor, incidunt ipsum hic velit autem minima, deserunt?</p>
+	<br><br>
+
+	<h2>The button Element</h2>
+
+	<button type="button" onclick="alert('Hello world!')">Click Me!</button>
+
+	<h2>The caption element, The col element & The colgroup element</h2>
+
+	<table>
+	  <caption>Monthly savings</caption>
+		<colgroup>
+	    	<col span="1" style="background-color:red">
+	    	<col style="background-color:yellow">
+	  	</colgroup>
+
+	  <tr>
+	    <th>Month</th>
+	    <th>Savings</th>
+	  </tr>
+	  <tr>
+	    <td>January</td>
+	    <td>$100</td>
+	  </tr>
+	  <tr>
+	    <td>February</td>
+	    <td>$50</td>
+	  </tr>
+	  <tr>
+	    <td>March</td>
+	    <td>$100</td>
+	  </tr>
+	  <tr>
+	    <td>April</td>
+	    <td>$50</td>
+	  </tr>
+	</table>
+
+	<h2>The datalist element</h2>
+
+	<form action="/action_page.php" method="get">
+	  <input list="browsers" name="browser">
+	  <datalist id="browsers">
+	    <option value="Internet Explorer">
+	    <option value="Firefox">
+	    <option value="Chrome">
+	    <option value="Opera">
+	    <option value="Safari">
+	  </datalist>
+	  <input type="submit">
+	</form>
+ 
+    <h2>The dl, dd, and dt elements</h2>
+    <dl>
+    	<dt>Coffee</dt>
+    	<dd>Black hot drink</dd>
+    	<dd><img src="https://images.pexels.com/photos/585752/pexels-photo-585752.jpeg?" alt="coffee" width="300"></dd>
+    	<dt>Ocean</dt>
+    	<dd><img src="https://images.pexels.com/photos/1656579/pexels-photo-1656579.jpeg?" alt="ocean-wave" width="300"></dd>
+	</dl>
+
+	<h2>The del element</h2>
+
+	<p>A del element is displayed like this:</p>
+	<p>Lorem ipsum dolor sit amet, <del>consectetur adipisicing elit</del>.Quasi suscipit hic exercitationem expedita accusamus quis, cupiditate, animi commodi tempore fugiat!</p>
+
+	<h2>The details element</h2>
+	<details>
+		<summary>Lorem ipsum</summary>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, ad, adipisci! Autem error vel, reprehenderit! Quia voluptas iure iste quas libero esse maiores dolore! Quo magnam voluptatem, ea suscipit quaerat.</p>
+	</details>
+
+	<h2>The dfn element</h2>
+
+	<p><dfn title="HyperText Markup Language">HTML</dfn>is the standard markup language for creating web pages.</p>
+
+	<h2>The div element</h2>
+
+	<div style="background-color: lightblue">
+		<h3>lorem Ipsum</h3>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, error necessitatibus labore quidem ullam eaque quo, inventore ut quae nihil! Culpa ex accusantium dolore doloribus modi voluptates fugit facere. Obcaecati.
+		</p>
+	</div>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea officiis tempore omnis nulla optio cum beatae placeat, similique quis eos.
+		</p>
+
+	<h2>Phrase elements</h2>
+	<em>Lorem ipsum dolor sit amet,</em> <code>consectetur adipisicing elit.</code> <strong>Exercitationem sed, porro dolores consequatur</strong> <samp>aspernatur voluptas.</samp> <kbd>Vitae eos dolore minus molestiae</kbd>  exercitationem excepturi <var>consectetur quisquam </var> blanditiis, ut explicabo iure deserunt modi!
+
+	<h2>The fieldset element</h2>
+
+	<form action="/action_page.php">
+		<fieldset>
+			<legend>Parsonalia:</legend>
+
+			<label for="fname">First Name:</label>
+			<input type="text" id="fname" name="fname"><br><br>
+			<label for="mname">Middle Name:</label>
+			<input type="text" id="mname" name="mname"><br><br>
+			<label for="lname">Last Name:</label>
+			<input type="text" id="lname" name="lname"><br><br>
+			<label for="email">Email:</label>
+			<input type="text" id="email" name="email"><br><br>
+			<label for="birthday">Birthday:</label>
+			<input type="date" id="birthday" name="birthday"><br><br>
+			<input type="submit" value="Submit">
+		</fieldset>
+	</form>
+	<h2>The audio and video element</h2>
+		<audio controls>
+			<source src="audio/Homework.mp3" type="audio/mpeg">
+			<source src="audio/Quiet_Time.mp3" type="audio/mpeg">
+		</audio>	<br><br>
+
+		<video width="320" height="240" controls>
+			<source src="video/MyPortfolio.mp4" type="video/mp4">
+		</video>
+	<h2>The figure and figcaption element</h2>
+
+	<figure>
+		<img src="images/mosque.jpg" alt="Mosque" width="500">
+		<figcaption>Fig.1: Mosque</figcaption> <br><br> <hr><hr><br><br>
+		<img src="images/white-lighthouse.jpg" alt="white-lighthouse">
+		<figcaption>Fig.2: White Lighthouse</figcaption>
+	</figure>
+
+
+	<h2>The iframe element</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem similique illo perspiciatis amet, assumenda odio excepturi at corrupti maxime reiciendis?</p>
+	<iframe src="https://www.lipsum.com/feed/html" frameborder="2" width="500" height="200" style="float: right"></iframe>
+    <br><br><br>
+   <h2>The ol and ul elements</h2>
+   <p>The ol element defines an ordered list:</p>
+	   <ol>
+		   	<li>coffee</li>
+		   	<li>Tea</li>
+		   	<li>Milk</li>
+		   	<li>coffee</li>
+		   	<li>Tea</li>
+		   	<li>Milk</li>
+	   </ol>
+   <p>The ul element defines an unordered list:</p>
+	   <ul>
+		   	<li>coffee</li>
+		   	<li>Tea</li>
+		   	<li>Milk</li>
+		   	<li>coffee</li>
+		   	<li>Tea</li>
+		   	<li>Milk</li>
+	   </ul>
+
+    <h2>The mark element</h2>
+    <p>Lorem ipsum dolor sit amet, <mark>Lorem ipsum dolor sit amet.</mark>consectetur adipisicing elit. Laborum nemo ea nesciunt eveniet amet consectetur delectus! Provident ex voluptas molestiae, pariatur illum quae tenetur ad optio consectetur animi, impedit quaerat.</p>
+    <br>
+    <h2>The nav element</h2>
+    <nav>
+    	<a href="#">Home</a>
+    	<a href="#">About</a>
+    	<a href="#">Services</a>
+    </nav>
+
+    <h2>The optgroup element</h2>
+    <label for="cars"></label>
+    <select id="cars">
+    	<optgroup label="Swedish Cars">
+    		<option value="volvo">Volvo</option>
+    		<option value="saab">Saab</option>
+    	</optgroup>
+    	<optgroup label="German Cars">
+    		<option value="mercedes">Mercedes</option>
+    		<option value="audi">Audi</option>
+    	</optgroup>
+    </select>
+
+    <h2>The progress element</h2>
+    <label for="file">Downloading progress:</label>
+    <progress id="file" value="40" max="100">50%</progress>
+
+    <h2>The q element</h2>
+
+    <p>Lorem ipsum:</p><q>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, culpa?</q>
+
+    <h2>The s element</h2>
+    <h4>This tag specifies text that is no longer correct, accurate or relevant.</h4>
+    <p>Lorem ipsum dolor sit amet, <s>Lorem ipsum dolor.</s>consectetur adipisicing elit. Eveniet, quasi.</p>
+
+    <h2>The section element, The span element, The sub and sup elements, The small element, The u element and The i element </h2>
+    <h3>
+    	This tag defines sections in a document, such as chapters, headers, footers, or any other sections of the document.
+	</h3>
+
+	<section>
+		<h4>1. Lorem ipsum.</h4>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, enim!</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <sub style="color:red;font-weight:bold;">Tenetur facilis,</sub> repellendus nisi ratione id rem quas saepe illum amet pariatur hic possimus ullam repudiandae, <span style="color:blue;font-weight:bold;">ad quis officiis nihil veniam harum.</span> Ipsum provident dolorem cupiditate magni rerum quo maxime nemo, totam, quidem officia. <u>Dignissimos esse fugiat laudantium illum reiciendis quam optio!</u> Lorem ipsum dolor sit amet, <i>consectetur adipisicing elit.</i> Tenetur facilis, repellendus nisi ratione id rem quas saepe illum amet pariatur hic possimus ullam repudiandae, ad quis officiis nihil veniam harum. Ipsum provident dolorem cupiditate magni rerum quo maxime nemo, totam, quidem officia. Dignissimos esse fugiat laudantium illum reiciendis quam optio!</p>
+	</section>
+
+	<section>
+		<h4>2. Lorem ipsum.</h4>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, enim!</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur facilis, repellendus nisi ratione id rem quas saepe illum amet pariatur  <span style="color:red;font-weight:bold">hic possimus ullam repudiandae,</span>ad quis officiis nihil veniam harum. Ipsum provident dolorem cupiditate magni <sup style="color: blue;font-weight:bold;">rerum quo</sup> maxime nemo, totam, quidem officia. Dignissimos esse fugiat laudantium illum reiciendis quam optio!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur facilis, repellendus nisi ratione id rem quas saepe illum amet pariatur hic possimus ullam repudiandae, <small>ad quis officiis nihil veniam harum. Ipsum provident dolorem cupiditate magni rerum quo maxime nemo,</small>  totam, quidem officia. Dignissimos esse fugiat laudantium illum reiciendis quam optio!</p>
+	</section>
+
+	<h2>The textarea element</h2>
+	<label for="lorem">Lorem Ipsum:</label>
+	<textarea name="lorem" id="lorem" cols="50" rows="10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur iure recusandae saepe quos, velit ea inventore pariatur? Nisi quod dolorem recusandae qui, nostrum repellat nam maiores a incidunt, debitis praesentium atque accusamus? Corporis commodi temporibus expedita eaque ipsum ducimus voluptates harum? Iusto voluptates ad nemo laudantium possimus quis voluptas veritatis iure veniam temporibus et sint officia consequatur, necessitatibus, nostrum cupiditate provident distinctio eius beatae, maiores illum error ducimus aut! Quod voluptas provident esse, possimus nam amet sint doloremque consectetur distinctio ab reiciendis animi omnis ipsum excepturi voluptatibus, aut sit magnam nulla, eaque ducimus repellendus exercitationem. Omnis unde at deserunt eligendi!</textarea>
+
+		
+</body>
+</html>
